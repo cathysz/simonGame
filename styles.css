@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  background-image: url("image/mother.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: #011F3F; */
+}
+
+#level-title {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 3rem;
+  color: #D18CE0;
+}
+footer{
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 2rem;
+  margin:  5%;
+  color: #FFA1A1;
+}
+#start{
+  display: inline-block;
+  height: 2rem;
+  width: 4rem;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size:1.5rem;
+  color:white;
+  background-color: #FFC4DD;
+  border-radius: 10%;
+  vertical-align: middle;
+  border:none;
+}
+
+
+#start:hover {background-color: #FFA1A1}
+
+#start:active {
+ background-color: #FFA1A1;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+
+}
+
+/* .btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #FFC4DD;
+  border-radius: 30%;
+} */
+.btn {
+  margin: 1rem;
+  display: inline-block;
+  height: 8rem;
+  width: 8rem;
+  border: 0.5rem solid #FFC4DD;
+  border-radius: 30%;
+}
+
+.game-over {
+  background-color: #FF6464;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #FF6464;
+}
+
+.green {
+  background-color: #B4FF9F;
+}
+
+.blue {
+  background-color: #5EE6EB;
+}
+
+.yellow {
+  background-color: #F2FA5A;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
